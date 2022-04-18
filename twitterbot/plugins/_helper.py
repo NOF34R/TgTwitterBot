@@ -54,8 +54,8 @@ async def _andshow(client, query):
 async def startmsg(client, message):
     reply_markup = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="Support Group", url="t.me/FutureCodesChat")],
-            [InlineKeyboardButton(text="Repo", url=REPO)],
+            [InlineKeyboardButton(text="Support Group", url="t.me/l1v3roBot")],
+           
         ]
     )
     await message.reply_text(
